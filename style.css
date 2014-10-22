@@ -20,14 +20,14 @@ header{
 
 .navbar{
 	margin: 0 auto;
-    width: 900px;
+    width: 700px;
+    padding: 10px 0;
 }
 
 .flex {
 	align-items: center;
 	display: flex;
 	flex-direction:row;
-	height: 100px;
 }
 
 .order-1{
@@ -132,8 +132,12 @@ li{
 	color: #fff
 }
 
-.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
-    background-color: #e35175;
-    border-color: #adadad;
-    color: #333;
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+
+    background-color: #e35175;
+
+    border-color: #adadad;
+
+    color: #333;
+
 }
