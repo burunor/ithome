@@ -1,17 +1,19 @@
 
  /* GLOBAL */
 
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700);
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700,300);
 
 html, body{
 	margin: 0 auto;
 	max-width: 1280px;
-	font-family: "Oswald";
 }
 
+
 /* HEADER */
+
+header{
+	font-family: "Oswald";
+}
 
 .navbar{
 	margin: 0 auto;
