@@ -5,7 +5,7 @@
 
 html, body{
 	margin: 0 auto;
-	max-width: 1280px;
+	max-width: 1400px;
 }
 
 .btn, input, .form-control {
@@ -102,6 +102,24 @@ li{
 
 .search{
 	background: lightblue;
-	margin: 50px 0;
+	margin-top: 50px;
     padding: 35px;
+}
+
+/* FEATURE SECTION */
+
+.featured{
+	margin-bottom: 20px;
+}
+
+.featured h3{
+	text-align: center;
+}
+
+.featured .feature{
+	width: 300px;
+	min-height: 300px;
+	background: LightGreen;
+	float:left;
+	margin: 0 25px;
 }
