@@ -11,3 +11,61 @@ html, body{
 	font-family: "Oswald";
 }
 
+/* HEADER */
+
+.navbar{
+	margin: 0 auto;
+    width: 900px;
+}
+
+.flex {
+	align-items: center;
+	display: flex;
+	flex-direction:row;
+	height: 100px;
+}
+
+.order-1{
+	order:1;
+}
+
+.order-2{
+	order:2;
+}
+
+.order-3{
+	order:3;
+}
+
+.order-4{
+	order:4;
+}
+
+.order-5{
+	order:5;
+}
+
+.navbar li{
+	font-size: 2em;
+    list-style: outside none none;
+    width: 5em;
+}
+
+.navbar li a{
+	color: #333;
+	font-weight: 300;
+	text-decoration: none;
+}
+
+.brand{
+	background: #e35175;
+}
+
+li.brand a{
+	color:#fff;
+	font-weight: 700;
+}
+
+li{
+	text-align: center;
+}
