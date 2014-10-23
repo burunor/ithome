@@ -27,7 +27,7 @@ header{
 
 .navbar{
 	margin: 0 auto;
-    width: 700px;
+    width: 55%;
     padding: 10px 0;
 }
 
@@ -81,6 +81,21 @@ li.brand a{
 li{
 	text-align: center;
 }
+
+/* HEADER > 1100PX */
+
+@media screen and (max-width: 1100px){
+	.navbar{
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 835px){
+	.navbar{
+		width: 100%;
+	} 
+}
+
 
 /* Slide Hightlight */
 
