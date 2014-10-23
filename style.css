@@ -1,3 +1,10 @@
+/*
+Theme Name:		IT Home
+Description:	Theme for IT Home.
+Author: 		Bruno Dantas
+Template: 		twentytwelve
+Version: 		1.0
+*/
 
  /* GLOBAL */
 
@@ -132,8 +139,8 @@ li{
 	color: #fff
 }
 
-.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
-    background-color: #e35175;
-    border-color: #adadad;
-    color: #333;
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    background-color: #e35175;
+    border-color: #adadad;
+    color: #333;
 }
