@@ -94,11 +94,8 @@ li{
 .highlight .caption{
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
     color: #FFF;
-    float: right;
-    height: 400px;
-    margin: 50px;
-    width: 300px;
-    padding: 0 20px;
+    margin: 2%;
+    padding: 20px;
 }
 
 .caption p {
