@@ -143,6 +143,20 @@ li{
 	margin: 0 25px;
 }
 
+.featured .col-xs-1, .featured .col-sm-1, .featured .col-md-1, .featured .col-lg-1, .featured .col-xs-2, .featured .col-sm-2, .featured .col-md-2, .featured .col-lg-2, 
+.featured .col-xs-3, .featured .col-sm-3, .featured .col-md-3, .featured .col-lg-3, .featured .col-xs-4, .featured .col-sm-4, .featured .col-md-4, .featured .col-lg-4, 
+.featured .col-xs-5, .featured .col-sm-5, .featured .col-md-5, .featured .col-lg-5, .featured .col-xs-6, .featured .col-sm-6, .featured .col-md-6, .featured .col-lg-6, 
+.featured .col-xs-7, .featured .col-sm-7, .featured .col-md-7, .featured .col-lg-7, .featured .col-xs-8, .featured .col-sm-8, .featured .col-md-8, .featured .col-lg-8, 
+.featured .col-xs-9, .featured .col-sm-9, .featured .col-md-9, .featured .col-lg-9, .featured .col-xs-10, .featured .col-sm-10, .featured .col-md-10, .featured .col-lg-10, 
+.featured .col-xs-11, .featured .col-sm-11, .featured .col-md-11, .featured .col-lg-11, .featured .col-xs-12, .featured .col-sm-12, .featured .col-md-12, .featured .col-lg-12{
+	padding-left: 0;
+}
+
+.featured.col-lg-9, .featured.col-md-9, .featured.col-sm-9, .featured.col-xs-12{
+	padding-left: 0;
+}
+
+
 /* FORM */
 
 .btn-default{
