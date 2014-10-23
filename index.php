@@ -7,6 +7,7 @@
 	<title>IT HOME - Imoveis em Indaituba</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="style.css">
+	<?php wp_head(); ?>
 </head>
 <body>
 	<div class="container-fluid">
@@ -45,16 +46,16 @@
 		    	<h3>Nossos Destaques</h3>
 		    	<div class="row clearfix">
 		    		<div class="col-md-3">
-		    			<img src="img/ap1.jpg" alt="" class="img-responsive">
+		    			<img src="<?php echo  get_stylesheet_directory_uri() . '/img/ap1.jpg'; ?>" alt="" class="img-responsive">
 		    		</div>
 			    	<div class="col-md-3">
-			    		<img src="img/casa1.jpg" alt="" class="img-responsive">
+			    		<img src="<?php echo  get_stylesheet_directory_uri() . '/img/casa1.jpg'; ?>" alt="" class="img-responsive">
 			    	</div>
 			    	<div class="col-md-3">
-			    		<img src="img/ap2.jpg" alt="" class="img-responsive">
+			    		<img src="<?php echo  get_stylesheet_directory_uri() . '/img/ap2.jpg'; ?>" alt="" class="img-responsive">
 			    	</div>
 			    	<div class="col-md-3">
-			    		<img src="img/casa2.jpg" alt="" class="img-responsive">
+			    		<img src="<?php echo  get_stylesheet_directory_uri() . '/img/casa2.jpg'; ?>" alt="" class="img-responsive">
 			    	</div>
 		    	</div>
 		    </section>
