@@ -7,6 +7,7 @@
 	<title>IT HOME - Imoveis em Indaituba</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="style.css">
+	<?php wp_head(); ?>
 </head>
 <body>
 	<div class="container-fluid">
@@ -35,25 +36,25 @@
 		    	<h3>Lançamentos</h3>
 		    	<div class="clearfix">
 		    		<div class="col-sm-4 col-xs-12">
-		    			<img src="img/ap1.jpg" alt="" class="img-responsive">
+		    			<img src="<?php echo  get_stylesheet_directory_uri() . '/img/ap1.jpg'; ?>" alt="" class="img-responsive">
 		    			<h4>Avenida Kennedy, 500</h4>
 		    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, repellendus, eligendi, saepe quisquam vero assumenda.</p>
 		    			<span>R$300.000</span>
 		    		</div>
 			    	<div class="col-sm-4 col-xs-12">
-			    		<img src="img/casa1.jpg" alt="" class="img-responsive">
+			    		<img src="<?php echo  get_stylesheet_directory_uri() . '/img/casa1.jpg'; ?>" alt="" class="img-responsive">
 			    		<h4>Rua Chile, 7000</h4>
 			    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, repellendus, eligendi, saepe quisquam vero assumenda.</p>
 			    		<span>R$500.000</span>
 			    	</div>
 			    	<div class="col-sm-4 col-xs-12">
-			    		<img src="img/ap2.jpg" alt="" class="img-responsive">
+			    		<img src="<?php echo  get_stylesheet_directory_uri() . '/img/ap2.jpg'; ?>" alt="" class="img-responsive">
 			    		<h4>Rua douglas Adams, 42</h4>
 			    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, repellendus, eligendi, saepe quisquam vero assumenda.</p>
 			    		<span>R$270.000</span>
 			    	</div>
 			    	<!-- <div class="col-md-3">
-			    		<img src="img/casa2.jpg" alt="" class="img-responsive">
+			    		<img src="<?php echo  get_stylesheet_directory_uri() . '/img/casa2.jpg'; ?>" alt="" class="img-responsive">
 			    	</div> -->
 		    	</div>
 		    </section>
