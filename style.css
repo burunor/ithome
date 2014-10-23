@@ -169,7 +169,8 @@ li{
 	color: #fff
 }
 
-.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active,
+.open > .dropdown-toggle.btn-default {
     background-color: rgb(60, 144, 190); /*#e35175;*/
     /*border-color: #adadad;*/
     color: #333;
