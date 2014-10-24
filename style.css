@@ -124,7 +124,7 @@ li{
 }
 
 .featured h3{
-	text-align: center;
+	/*text-align: center;*/
 }
 
 .featured .feature{
@@ -147,6 +147,13 @@ li{
 .featured.col-lg-9, .featured.col-md-9, .featured.col-sm-9, .featured.col-xs-12{
 	padding-left: 0;
 }
+
+.featured span {
+    color: #e35175;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
 
 /* SEARCH SECTION */
 
