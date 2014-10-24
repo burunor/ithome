@@ -70,7 +70,7 @@ header{
 }
 
 .brand{
-	background: #e35175;
+	background: rgb(60, 144, 190); /* #e35175; */
 }
 
 li.brand a{
