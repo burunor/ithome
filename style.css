@@ -149,7 +149,7 @@ li{
 }
 
 .featured span {
-    color: #e35175;
+    color: rgb(60, 144, 190); /* #e35175; */
     font-weight: 700;
     font-size: 1.5em;
 }
