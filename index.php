@@ -25,51 +25,40 @@
 		<article class="content">
 			<section class="highlight">
 				<!-- <img src="casa.jpg" alt="casa"> -->
-				<div class="caption pull-right col-xs-10 col-sm-4 col-lg-4">
+				<div class="caption">
 					<h1>Vila Nova, 320 - Indaiatuba</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, repellendus, eligendi, saepe quisquam vero assumenda ratione alias nesciunt est blanditiis laborum ad possimus. Totam, numquam corporis ratione illum reiciendis eligendi.</p>
-					<button class="btn btn-default btn-block">Leia Mais</button>
+					<button class="btn btn-default">Leia Mais</button>
 				</div>
 			</section>
 
-		    <section class="col-lg-9 col-md-9 col-sm-9 col-xs-12 featured">
-		    	<h3>Lançamentos</h3>
-		    	<div class="clearfix">
-		    		<div class="col-sm-4 col-xs-12">
-		    			<img src="<?php echo  get_stylesheet_directory_uri() . '/img/ap1.jpg'; ?>" alt="" class="img-responsive">
-		    			<h4>Avenida Kennedy, 500</h4>
-		    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, repellendus, eligendi, saepe quisquam vero assumenda.</p>
-		    			<span>R$300.000</span>
-		    		</div>
-			    	<div class="col-sm-4 col-xs-12">
-			    		<img src="<?php echo  get_stylesheet_directory_uri() . '/img/casa1.jpg'; ?>" alt="" class="img-responsive">
-			    		<h4>Rua Chile, 7000</h4>
-			    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, repellendus, eligendi, saepe quisquam vero assumenda.</p>
-			    		<span>R$500.000</span>
-			    	</div>
-			    	<div class="col-sm-4 col-xs-12">
-			    		<img src="<?php echo  get_stylesheet_directory_uri() . '/img/ap2.jpg'; ?>" alt="" class="img-responsive">
-			    		<h4>Rua douglas Adams, 42</h4>
-			    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, repellendus, eligendi, saepe quisquam vero assumenda.</p>
-			    		<span>R$270.000</span>
-			    	</div>
-			    	<!-- <div class="col-md-3">
-			    		<img src="<?php echo  get_stylesheet_directory_uri() . '/img/casa2.jpg'; ?>" alt="" class="img-responsive">
-			    	</div> -->
-		    	</div>
-		    </section>
-
-		    <section class="search col-lg-3 col-sm-3 col-xs-12 pull-right">
-		      <form action="" class="form" role="form">
-		      	<h3>Encontre um Propriedade</h3>
-		    	<div class="form-group"><label for="">Lorem:</label><input type="text" class="form-control"></div>
-		    	<div class="form-group"><label for="">Ipsum:</label><input type="text" class="form-control"></div>
-		    	<div class="form-group"><label for="">Sit amet:</label><input type="text" class="form-control"></div>
-		    	<div class="form-group"><label for="">Consectur:</label><input type="text" class="form-control"></div>
+		    <section class="search">
+		      <form action="" class="form-inline" role="form">
+		    	<div class="form-group"><label for=""></label><input type="text" class="form-control"></div>
+		    	<div class="form-group"><label for=""></label><input type="text" class="form-control"></div>
+		    	<div class="form-group"><label for=""></label><input type="text" class="form-control"></div>
+		    	<div class="form-group"><label for=""></label><input type="text" class="form-control"></div>
 		    	<button class="btn btn-default" type="submit">Pesquisar</button>
 		      </form>
 		    </section>
 
+		    <section class="featured">
+		    	<h3>Nossos Destaques</h3>
+		    	<div class="row clearfix">
+		    		<div class="col-md-3">
+		    			<img src="<?php echo  get_stylesheet_directory_uri() . '/img/ap1.jpg'; ?>" alt="" class="img-responsive">
+		    		</div>
+			    	<div class="col-md-3">
+			    		<img src="<?php echo  get_stylesheet_directory_uri() . '/img/casa1.jpg'; ?>" alt="" class="img-responsive">
+			    	</div>
+			    	<div class="col-md-3">
+			    		<img src="<?php echo  get_stylesheet_directory_uri() . '/img/ap2.jpg'; ?>" alt="" class="img-responsive">
+			    	</div>
+			    	<div class="col-md-3">
+			    		<img src="<?php echo  get_stylesheet_directory_uri() . '/img/casa2.jpg'; ?>" alt="" class="img-responsive">
+			    	</div>
+		    	</div>
+		    </section>
 		</article>
 	</div>
 
